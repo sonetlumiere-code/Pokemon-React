@@ -1,0 +1,106 @@
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 9vh;
+    padding: 0 100px;
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+    background-color: var(--main-color);
+    z-index: 10;
+    touch-action: none;
+}
+
+nav .logo {
+    position: relative;
+    max-height: 9vh;
+}
+
+nav ul {
+    position: relative;
+    display: flex;
+    margin-bottom: 0;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 8px 0px;
+    display: inline-block;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 30px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logOut {
+    padding: 8px 20px;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius:40px;
+    transition: 0.5s;
+}
+
+.logOut:hover{
+    background: #fff;
+    color: rgb(26,234,182);
+}
+
+@media (max-width: 991px) {
+    nav {
+        justify-content: space-between;
+        padding: 0 20px;
+    }
+    nav .logo {
+        max-width: 100px;
+    }
+    nav ul {
+        display: none;
+        padding-left: 0;
+    }
+    .toggle {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: url('../../assets/imgs/menu.png');
+        background-size: 26px;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 11;
+    }
+    .toggle.active {
+        position: fixed;
+        right: 20px;
+        background: url('../../assets/imgs/close.png');
+        background-size: 20px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    nav ul.navigation.active {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: var(--main-color);
+        z-index: 10;
+    }
+    nav ul li a {
+        font-size: 1.2em;
+        margin: 3px 0;
+    }
+    ul li:last-child{
+        margin: 30px;
+    }
+}

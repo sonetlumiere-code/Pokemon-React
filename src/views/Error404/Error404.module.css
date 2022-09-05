@@ -1,0 +1,25 @@
+.error404ImgContainer {
+    position: relative;
+    width: 100%;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error404Img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+}
+
+.error404Txt {
+    text-align: center;
+    font-size: 28px;
+}
+
+@media (max-width: 991px) {
+    .error404Txt {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,14 @@
+.cardsContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 40vh;
+}

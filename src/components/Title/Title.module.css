@@ -1,0 +1,12 @@
+.titleText {
+    text-align: center;
+    font-size: 28px;
+    padding: 22px 0;
+}
+
+@media (max-width: 991px) {
+    .titleText {
+        font-size: 18px;
+        padding: 16px 0;
+    }
+}

@@ -1,0 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI';
+}
+
+:root {
+  --main-color: rgb(26,234,182);
+  --shadow: 12px 20px 100px -20px rgba(0, 0, 0, 0.5);
+}
