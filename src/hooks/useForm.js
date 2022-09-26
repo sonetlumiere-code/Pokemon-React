@@ -19,6 +19,7 @@ const useForm = (formState, fn = null) => {
   }
 
   return [values, handleChange, handleSubmit];
+  
 }
 
 export default useForm;

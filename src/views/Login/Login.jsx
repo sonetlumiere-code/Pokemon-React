@@ -22,8 +22,6 @@ const Login = () => {
     navigate('/', {
       replace: true   //elimina el registro de navegación (para q el usuario no pueda volver atras en el historial)
     });
-
-    console.log(values)
   }
 
   const [values, handleChange, handleSubmit] = useForm({
