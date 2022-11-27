@@ -1,4 +1,3 @@
-Frontend Challenge
-lucas.perez.ok@gmail.com
+# Pokemon React
 
-Live demo: https://pokemon-frontendchallenge.herokuapp.com/
+## Live demo: https://pokemon-react-pi.vercel.app/
